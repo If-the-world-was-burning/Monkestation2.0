@@ -512,7 +512,7 @@
 		Be cautious as it can be detected using genetic scanners and is curable with mutadone."
 	cost = 12
 	item = /obj/item/dnainjector/syndicate_mending_touch
-	restricted_roles = list(JOB_GENETICIST)
+	restricted_roles = list(JOB_GENETICIST, JOB_CHAPLAIN)
 
 /datum/uplink_item/role_restricted/stabilizer_chromosome
 	name = "Stabilizer Chromosome"

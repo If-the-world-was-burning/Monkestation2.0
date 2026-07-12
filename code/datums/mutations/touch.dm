@@ -429,18 +429,18 @@
 				human_smiter.say("in [possible_deity]'s dark name, I COMMAND YOU TO PERISH!!!", forced = "compelled by the power of their deity")
 			else
 				human_smiter.say("By [possible_deity]'s might, I SMITE YOU!!!", forced = "compelled by the power of their deity")
-		our_smite_multiplier *= divine_champion ? 5 : 1 //good luck surviving this if they're a chap
+		our_smite_multiplier *= divine_champion ? 3 : 1 //good luck surviving this if they're a chap
 
 	if(evil_smite)
 		motherfucker_to_hurt.visible_message(span_warning("[smiter] snaps [smiter.p_their()] fingers in front of [motherfucker_to_hurt]'s face, and [motherfucker_to_hurt]'s body twists violently from an unseen force!"))
-		motherfucker_to_hurt.apply_damage(10 * our_smite_multiplier, BRUTE, spread_damage = TRUE, wound_bonus = 5 * our_smite_multiplier)
-		motherfucker_to_hurt.adjust_rebuked_up_to(STAGGERED_SLOWDOWN_LENGTH * our_smite_multiplier, 25 SECONDS)
+		motherfucker_to_hurt.apply_damage(15 * our_smite_multiplier, BRUTE, spread_damage = TRUE, wound_bonus = 6 * our_smite_multiplier)
+		motherfucker_to_hurt.adjust_rebuked_up_to(STAGGERED_SLOWDOWN_LENGTH * our_smite_multiplier + 2, 25 SECONDS)
 		smiter.emote("snap")
 		smite_text_to_target = "crushes you psychically with a snap of [smiter.p_their()] fingers"
 	else
 		motherfucker_to_hurt.visible_message(span_warning("[smiter] lays hands on [motherfucker_to_hurt], but it shears [motherfucker_to_hurt.p_them()] with a brilliant energy!"))
-		motherfucker_to_hurt.apply_damage(10 * our_smite_multiplier, BURN, spread_damage = TRUE, wound_bonus = 5 * our_smite_multiplier)
-		motherfucker_to_hurt.adjust_fire_stacks(3 * our_smite_multiplier)
+		motherfucker_to_hurt.apply_damage(15 * our_smite_multiplier, BURN, spread_damage = TRUE, wound_bonus = 6 * our_smite_multiplier)
+		motherfucker_to_hurt.adjust_fire_stacks(5 * our_smite_multiplier)
 		motherfucker_to_hurt.ignite_mob()
 
 	motherfucker_to_hurt.update_damage_overlays()

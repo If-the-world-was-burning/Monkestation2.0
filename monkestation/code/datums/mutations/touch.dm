@@ -86,7 +86,7 @@
 	text_lose_indication = span_notice("Your hand feels secular once more.")
 	power_path = /datum/action/cooldown/spell/touch/lay_on_hands/syndicate
 	conflicts = list(/datum/mutation/lay_on_hands)
-	instability = 50
+	instability = 60
 
 /datum/action/cooldown/spell/touch/lay_on_hands/syndicate
 	name = "Corrupted Mending Touch"
