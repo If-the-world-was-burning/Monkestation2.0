@@ -433,7 +433,7 @@
 
 	if(evil_smite)
 		motherfucker_to_hurt.visible_message(span_warning("[smiter] snaps [smiter.p_their()] fingers in front of [motherfucker_to_hurt]'s face, and [motherfucker_to_hurt]'s body twists violently from an unseen force!"))
-		motherfucker_to_hurt.apply_damage(15 * our_smite_multiplier, BRUTE, spread_damage = TRUE, wound_bonus = 6 * our_smite_multiplier)
+		motherfucker_to_hurt.apply_damage(20 * our_smite_multiplier, BRUTE, spread_damage = TRUE, wound_bonus = 8 * our_smite_multiplier)
 		motherfucker_to_hurt.adjust_rebuked_up_to(STAGGERED_SLOWDOWN_LENGTH * our_smite_multiplier + 2, 25 SECONDS)
 		smiter.emote("snap")
 		smite_text_to_target = "crushes you psychically with a snap of [smiter.p_their()] fingers"
