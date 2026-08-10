@@ -12436,6 +12436,10 @@
 /area/station/engineering/storage/tech)
 "bjg" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/box/white{
+	color = "#D381C9"
+	},
+/obj/machinery/holopad,
 /turf/open/floor/iron/dark/small,
 /area/station/science/robotics/mechbay)
 "bjh" = (
@@ -66598,6 +66602,10 @@
 "snP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
+/obj/machinery/holopad,
+/obj/effect/turf_decal/box/white{
+	color = "#D381C9"
+	},
 /turf/open/floor/iron/dark/textured,
 /area/station/science/robotics/lab)
 "sor" = (
