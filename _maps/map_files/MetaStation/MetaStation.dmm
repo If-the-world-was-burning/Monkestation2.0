@@ -6253,6 +6253,7 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
+<<<<<<< HEAD
 "cmw" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -6260,6 +6261,8 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/aft/greater)
+=======
+>>>>>>> d2e49c86aa4 (cleans up metastation piping)
 "cmB" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -20837,6 +20840,7 @@
 "huG" = (
 /turf/closed/wall,
 /area/station/service/kitchen/coldroom)
+<<<<<<< HEAD
 "huX" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
@@ -20847,6 +20851,8 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/starboard)
+=======
+>>>>>>> d2e49c86aa4 (cleans up metastation piping)
 "huZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -45559,11 +45565,25 @@
 /turf/open/floor/carpet,
 /area/station/command/bridge)
 "pKi" = (
+<<<<<<< HEAD
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/hallway/primary/starboard)
+=======
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/station/maintenance/port/fore)
+>>>>>>> d2e49c86aa4 (cleans up metastation piping)
 "pKs" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin/carbon{
@@ -59152,10 +59172,19 @@
 /turf/open/floor/iron,
 /area/station/commons/locker)
 "usY" = (
+<<<<<<< HEAD
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/hallway/primary/starboard)
+=======
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
+>>>>>>> d2e49c86aa4 (cleans up metastation piping)
 "uta" = (
 /obj/structure/rack,
 /obj/item/book/manual/wiki/security_space_law{
@@ -63028,11 +63057,17 @@
 /turf/open/floor/iron,
 /area/station/service/janitor)
 "vMd" = (
+<<<<<<< HEAD
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
+=======
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/white,
+/area/station/science/explab)
+>>>>>>> d2e49c86aa4 (cleans up metastation piping)
 "vME" = (
 /obj/structure/chair/stool/directional/north,
 /obj/structure/cable,
@@ -88842,7 +88877,11 @@ ntM
 pgJ
 fRZ
 hZQ
+<<<<<<< HEAD
 ybi
+=======
+pKi
+>>>>>>> d2e49c86aa4 (cleans up metastation piping)
 aYf
 dOS
 xxp
@@ -101751,8 +101790,13 @@ pQO
 bPy
 eAS
 fPb
+<<<<<<< HEAD
 ikR
 fMp
+=======
+usY
+htd
+>>>>>>> d2e49c86aa4 (cleans up metastation piping)
 enZ
 tUn
 wXF
@@ -110536,8 +110580,13 @@ rhw
 wEv
 wEv
 wEv
+<<<<<<< HEAD
 wEv
 wEv
+=======
+vMd
+vMd
+>>>>>>> d2e49c86aa4 (cleans up metastation piping)
 uhh
 tVv
 aaa
