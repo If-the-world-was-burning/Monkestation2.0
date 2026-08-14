@@ -20285,6 +20285,7 @@
 	dir = 4
 	},
 /obj/machinery/newscaster/directional/east,
+/obj/structure/closet/secure_closet/engineering_welding,
 /turf/open/floor/iron/dark/side{
 	dir = 4
 	},
@@ -41175,9 +41176,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
-/obj/machinery/door/airlock/maintenance{
-	name = "Mining Office Maintenance"
-	},
 /obj/effect/mapping_helpers/airlock/access/all/supply/mining,
 /obj/machinery/door/airlock/mining/glass{
 	name = "Mining Dock"
@@ -56444,7 +56442,6 @@
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 5
 	},
-/obj/structure/closet/secure_closet/engineering_welding,
 /turf/open/floor/iron/dark/side{
 	dir = 5
 	},
